@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ARTECH</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+    <![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Gem style -->
+    <link rel="stylesheet" href="css/product.css">
+    <!-- Gem style -->
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+    <script src="js/index.js"></script>
+    <script src="js/carousel.js"></script>
+
+    <!--scrolling animation-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+
+</head>
+<body>
+    <div>
+
+        <nav role="navigation" class="navbar navbar-default navbar-fixed-top" style="background-color: black; margin-bottom: 0px;">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand" style="font-size: 30px; color: white; font-stretch: normal; font-weight: 600;">A R T E C H </a>
+                </div>
+
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#Home" style="color: white;">Strona główna</a></li>
+                        <li><a href="#WhoWeAre">O nas</a></li>
+                        <li><a href="#What_We_Offer">Oferta</a></li>
+                        <li><a href="#Gallary">Nasze projekty</a></li>
+                        <li><a href="#Contact_us">Kontakt</a></li>
+                        <li><a href="http://artech.shoplo.com">Sklep</a></li>
+                        <li><a href="http://localhost:63342/CHOSEN/webkurn/index.html">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <a id="Home"></a>
+            <div class="bs-example">
+                <div id="myCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li class="slide-one active"></li>
+                        <li class="slide-two"></li>
+                        <li class="slide-three"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item" style="background-image: url('Images/slide1.jpg')">
+                            <div class="wow pulse animated" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; -webkit-animation-duration: 2s; -webkit-animation-delay: 300ms; -webkit-animation-iteration-count: infinite;">
+                                <h2>HP OMEN</h2>
+                            </div>
+                            <div class="carousel-caption">
+                                <div class="wow slideInRight">
+                                    <h3></h3>
+                                </div>
+                                <div class="wow slideInLeft">
+                                    <p>Projekt powstał na zlecenie Hewlett-Packard Inc z okazji INTEL EXTREME MASTERS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="background-image: url('Images/slide2_postapo.jpg')">
+                            <div class="wow pulse animated" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; -webkit-animation-duration: 2s; -webkit-animation-delay: 300ms; -webkit-animation-iteration-count: infinite;">
+                                <h2>Environment</h2>
+                            </div>
+                            <div class="carousel-caption">
+                                <div class="wow slideInRight">
+                                    <h3>Postapo environment</h3>
+                                </div>
+                                <div class="wow slideInLeft">
+                                    <p>Conceptart postapo Rio de Janeiro</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="background-image: url('Images/slide3_landscape.jpg')">
+                            <div class="wow pulse animated" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; -webkit-animation-duration: 2s; -webkit-animation-delay: 300ms; -webkit-animation-iteration-count: infinite;">
+                                <h2>Pejzaż</h2>
+                            </div>
+                            <div class="carousel-caption">
+                                <div class="wow slideInRight">
+                                    <h3></h3>
+                                </div>
+                                <div class="wow slideInLeft">
+                                    <p>Wakacyjny pejzaż</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="carousel-control right">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+
+
+                <div class="wow bounceInUp">
+                    <main>
+        <!--<a name="WhoWeAre"></a>-->
+          <a id="WhoWeAre"></a>
+		<section id="cd-team" class="cd-section whoweare">
+			<div class="cd-container" >
+				<h3>O nas</h3>
+				<ul>
+					<li>
+						<a href="#0" data-type="member-1">
+							<figure>
+								<img src="Images/piotrskrzynski_profile.jpg" alt="Team member 1">
+								<div class="cd-img-overlay"><span></span></div>
+							</figure>
+
+							<div class="cd-member-info">
+								Piotr Skrzyński <span></span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+                    </li>
+
+                    <li>
+					<li>
+						<a href="#0" data-type="member-2">
+							<figure>
+								<img src="Images/radoslawlukaszewicz_profile.jpg" alt="Team member 1">
+								<div class="cd-img-overlay"><span></span></div>
+							</figure>
+
+							<div class="cd-member-info">
+								Radosław Łukaszewicz <span></span>
+							</div> <!-- cd-member-info -->
+						</a>
+
+                </ul>
+                </div>
+						<!--<a href="#0" data-type="member-3">
+							<figure>
+								<img src="Images/team-member-1.jpg" alt="Team member 1">
+								<div class="cd-img-overlay"><span>View Bio</span></div>
+							</figure>
+
+							<div class="cd-member-info">
+								 <span></span>
+							</div> <!-- cd-member-info
+						</a>
+					</li>
+				</ul>
+			</div> <!-- cd-container -->
+		</section> <!-- cd-team -->
+
+
+		<div class="cd-overlay"></div>
+	</main>
+                </div>
+
+
+                <div class="cd-member-bio member-1">
+                    <div class="cd-member-bio-pict">
+                        <img src="Images/bear_800x533_cut.jpg" alt="Member Bio image">
+                    </div>
+                    <!-- cd-member-bio-pict -->
+
+                    <div class="cd-bio-content">
+                        <h1> </h1>
+                        <h2>Piotr Skrzyński</h2>
+                        <p> Grafiką zajmuję się od najmłodszych lat. W szczególności interesuję się historiami
+                            obrazkowymi - komiksami oraz grafiką typu popart i logotypami. W przeszłości zajmowałem się
+                            pracą dla dużych spółek informatycznych, urzędów, oraz firm szkoleniowych, zawsze jednak
+                            w tle była pasja do grafiki, która w końcu wygrała.
+
+                            Dziś zajmuję się projektowaniem graficznym oraz pasjonuję się nowymi technologiami w
+                            zakresie sprzętu do grafiki.
+</p>
+                        <p> Piotr</p>
+
+                    </div>
+                    <!-- cd- -content -->
+                </div>
+                <!-- cd-member-bio -->
+
+                <div class="cd-member-bio member-2">
+                    <div class="cd-member-bio-pict">
+                        <img src="Images/twarz_800x533_cut%20kopia.jpg" alt="Member Bio image">
+                    </div>
+                    <!-- cd-member-bio-pict -->
+
+                    <div class="cd-bio-content">
+                        <h1> </h1>
+                        <h2>Radek Łukaszewicz</h2>
+                        <p>Moją pasją od zawsze była sztuka , w szczególności grafika 2D i 3D oraz malarstwo olejne.
+                            Pasja w końcu przerodziła się w zawód, w który wkładam całe serce i duszę...najbardziej
+                            fascynuje mnie świat 3D - nieograniczoność możliwości jakie niesie...
+                        </p>
+
+                        <p>Radek</p>
+                    </div>
+                    <!-- cd-bio-content -->
+                </div>
+                <!-- cd-member-bio -->
+
+                <div class="cd-member-bio member-3">
+                    <div class="cd-member-bio-pict">
+                        <img src="Images/member-bio-img-3.jpg" alt="Member Bio image">
+                    </div>
+                    <!-- cd-member-bio-pict -->
+
+                    <div class="cd-bio-content">
+                        <h1>Meet Samuel Noel</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, amet, voluptatibus et
+                            omnis dolore illo saepe voluptatem qui quibusdam sunt corporis ut iure repellendus delectus
+                            voluptate explicabo temporibus quos eaque?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, explicabo, doloribus, esse
+                            rem officia quas facilis
+                            quisquam. Ipsam.</p>
+                    </div>
+                    <!-- cd-bio-content -->
+                </div>
+                <!-- cd-member-bio -->
+                <a href="#0" class="cd-member-bio-close">Close</a>
+                <!-- close the author bio section -->
+
+                <script src="js/main.js"></script>
+                <!-- Gem jQuery -->
+
+            </div>
+
+
+
+            <a id="What_We_Offer"></a>
+            <div class="row" id="WhatWeOffer">
+                <div class="container">
+                    <div class="wow slideInLeft">
+                        <div class="row">
+                            <div class="wow pulse animated" data-wow-delay="300ms" data-wow-duration="2s" style="visibility: visible; -webkit-animation-duration: 2s; -webkit-animation-delay: 300ms; -webkit-animation-iteration-count: infinite;">
+                                <div class="product_head">Nasza oferta</div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 products ">
+                                <h2>
+                                    <a><span class="glyphicon glyphicon-picture"></span><!--<span class="glyphicon glyphicon-stats">--></span>
+                                    </a>&nbsp;&nbsp;Grafika</h2>
+                                <p>
+                                    Logotypy, projekty stron www, grafiki na odzież, malarstwo.
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 products ">
+                                <h2>
+                                    <a><span class="glyphicon glyphicon-copyright-mark"></span></a>&nbsp;&nbsp;Sitodruk/DTG</h2>
+                                <p>
+                                    Wykonujemy wydruki w technologii sitodruku oraz cyfrowego DTG.
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 products ">
+                                <h2>
+                                    <a><!--<span class="glyphicon glyphicon-refresh"></span>-->
+                                        <span class="glyphicon glyphicon-tint"></span></a>&nbsp;&nbsp;3 D</h2>
+                                <p>
+                                    Drukujemy przesłane pliki STL projektów 3D, projektujemy modele 3D.
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 products ">
+                                <h2>
+                                    <a><span class="glyphicon glyphicon-pencil"></span></a>&nbsp;&nbsp;Sprzęt</h2>
+                                <p>
+                                    Doradzamy w doborze sprzętu graficznego i go sprzedajemy.
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 products ">
+                                <h2>
+                                    <a><span class="glyphicon glyphicon-education"></span></a>&nbsp;&nbsp;Szkolenia</h2>
+                                <p>
+                                    Szkolimy z oprogramowania graficznego.
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 products  ">
+                                <h2>
+                                    <a><span class="glyphicon glyphicon-cloud"></span></a>&nbsp;&nbsp;Inne</h2>
+                                <p>
+                                    Prowadzimy projekty w zakresie różnych zainteresowań i pasji, zapraszamy do współpracy.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a id="Gallary"></a>
+        <div class="wow slideInRight">
+            <div class="row gallery">
+                <!--<h3>Portfolio</h3>-->
+                <iframe src="Flip_turn/index.html" width="100%" height="750" frameborder="0" style="border: 0"></iframe>
+            </div>
+        </div>
+
+        <a id="Contact_us"></a>
+        <div class="contact_us">
+            <div class="wow swing center animated">
+                <h3>Skontaktuj się z nami</h3>
+                <address>
+                    piotr.skrzynski@gmail.com<br>
+                    +48 608 026 213<br>
+                    ul. Tucholska 11 m.28<br>
+                    01-618 Warszawa, Polska <br>
+                </address>
+
+                <address>
+                    rlukaszewicz1@gmail.com<br>
+                    +48 602 206 242<br>
+                    ul. Kalinowej Łąki 4<br>
+                    01-934 Warszawa, Polska <br>
+                </address>
+
+            </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156389.09519296064!2d20.92111382713535!3d52.
+        23285504513408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!
+        2sWarsaw!5e0!3m2!1sen!2spl!4v1459947259488"
+                width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4722552288813!2d73.78548139607848!3d18.
+        507549224724873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2be45a9bc2ecf%3A0x9a674987afed2d85!2s
+        Chandani+Chowk%2C+Bavdhan%2C+Pune%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1428339985339"
+        width="100%" height="400"
+        frameborder="0" style="border:0"></iframe>-->
+
+        <div class="p_footer">
+            <div class="col-sm-12 t_right">
+                 A R T E C H  <a href="www.artech.warszawa.pl"></a>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+
+</html>
