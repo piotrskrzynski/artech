@@ -3,10 +3,10 @@
             color: #f3f3f3;
             padding-top: 90px;
             font-size: 52px;
-            font-family: "trebuchet ms", sans-serif;
+            font-family: lato, sans-serif;
         }
         .item {
-            background: #333;
+            background: #f1f1f1;
             text-align: center;
             height: 650px !important;
         }
@@ -17,8 +17,8 @@
         }
 
         #services {
-            background-color:black;
-            color:whitesmoke;
+            background-color:#f1f1f1;
+            color:darkslategrey;
         }
         .section-header {
             text-align:center;
@@ -30,7 +30,7 @@
             text-align:center;
             margin: 10px 10px 10px 10px;
             padding-bottom:10px;
-            color:whitesmoke;
+            color:darkslategrey;
         }
         .section-header p {
             text-align:center;
@@ -50,7 +50,7 @@
             }
         .Graphics {
             font-size:44px;
-            color:skyblue;
+            color:lightgrey;
             float: left;
         }
 
@@ -58,7 +58,7 @@
             margin-top:70px;
             text-align:center;
             font-size:40px;
-            color:#d1d3d2;
+            color:darkslategrey;
         }
         .products {
             color: AppWorkspace;
@@ -68,17 +68,17 @@
         }
             .products h2 {
                 font-size:32px;
-                color: AppWorkspace;
+                color: darkslategrey;
             }
             .products p {
              text-indent: 55px;
              margin-top:10px;
              font-size:16px;
              text-align:justify;
-             color:#d1d3d2;
+             color:darkslategrey;
             }
         #WhatWeOffer {
-            background-color:black;
+            background-color:#f1f1f1;
             padding-bottom:100px;
             
         }
@@ -96,8 +96,8 @@
         }
         .contact_us {
         text-align:left;
-        background-color:black;
-        color:white;
+        background-color:#f1f1f1;
+        color:darkslategrey;
         }
         .contact_us h3 {
             font-size:36px;
@@ -105,11 +105,11 @@
             
         }
         .p_footer {
-            background-color:black;
+            background-color:#f1f1f1;
             height:50px;
             width:auto;
             text-align:center;
-            color:#d1d3d2;
+            color:darkslategray;
             
             
              
