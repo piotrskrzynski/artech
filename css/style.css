@@ -147,7 +147,7 @@ main.slide-out .cd-overlay {
 }
 
 header {
-  background: #f2ecbd;
+  background: #8c8c8c;
 }
 header h1 {
   font-size: 30px;
@@ -156,7 +156,7 @@ header h1 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: .4em;
-  color: #3e380c;
+  color: #8c8c8c;
 }
 header p {
   font-size: 13px;
@@ -165,7 +165,7 @@ header p {
 }
 
 .cd-placeholder-1 {
-  background: grey;
+  background: #8c8c8c;
   color: #fdeaea;
 }
 
@@ -243,7 +243,7 @@ header p {
   display: block;
   font-family: "Droid Serif", serif;
   font-weight: normal;
-  color: #999999;
+  color: #8c8c8c;
   font-size: 14px;
   font-size: 0.875rem;
   margin-top: .5em;

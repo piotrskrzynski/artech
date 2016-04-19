@@ -3,10 +3,10 @@
             color: #f3f3f3;
             padding-top: 90px;
             font-size: 52px;
-            font-family: Lato-Black, sans-serif;
+            font-family: lato, sans-serif;
         }
         .item {
-            background: #f1f1f1;
+            background: #E2E2E2;
             text-align: center;
             height: 650px !important;
         }
@@ -17,7 +17,7 @@
         }
 
         #services {
-            background-color:#f1f1f1;
+            background-color:#E2E2E2;
             color:darkslategrey;
         }
         .section-header {
@@ -78,7 +78,7 @@
              color:darkslategrey;
             }
         #WhatWeOffer {
-            background-color:#f1f1f1;
+            background-color:#E2E2E2;
             padding-bottom:100px;
             
         }
@@ -96,7 +96,7 @@
         }
         .contact_us {
         text-align:left;
-        background-color:#f1f1f1;
+        background-color:#E2E2E2;
         color:darkslategrey;
         }
         .contact_us h3 {
@@ -105,7 +105,7 @@
             
         }
         .p_footer {
-            background-color:#f1f1f1;
+            background-color:#E2E2E2 ;
             height:50px;
             width:auto;
             text-align:center;
