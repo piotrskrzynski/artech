@@ -24,7 +24,7 @@ a { text-decoration: none; }
 /*  2. Universal styles
 --------------------------------------*/
 
-* {	font-family: 'Open Sans', sans-serif; }
+* {	font-family: Lato-Black, sans-serif; }
 body { background-color: #eee; }
 
 h1 {
@@ -362,7 +362,7 @@ span.btn {
   	height: 130px;
 }
 .templatemo_form input, .templatemo_form textarea {
-	font-family: 'Open Sans', sans-serif; /* for Firefox */
+	font-family: Lato-Black, sans-serif; /* for Firefox */
 	font-size: 14px; 
 	padding: 6px 2%;
 	width: 95%;
